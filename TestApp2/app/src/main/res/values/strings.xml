@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestApp2</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_add_inventory">Add Inventory</string>
+    <string name="btn_delete_inventory">Delete Inventory</string>
+    <string name="inv_name_hint">Inventory Name</string>
+</resources>
