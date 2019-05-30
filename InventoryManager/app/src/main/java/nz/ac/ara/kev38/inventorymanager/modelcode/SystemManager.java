@@ -25,6 +25,7 @@ public class SystemManager implements ISaveable, Parcelable {
 	protected SystemManager(Parcel in) {
 		allMyTags = in.createTypedArrayList(Tag.CREATOR);
 		allMyInventoryNames = in.createStringArrayList();
+		filesDir = in.readString();
 	}
 
 	public static final Creator<SystemManager> CREATOR = new Creator<SystemManager>() {
@@ -206,5 +207,6 @@ public class SystemManager implements ISaveable, Parcelable {
 	public void writeToParcel(Parcel parcel, int i) {
 		parcel.writeParcelableArray(allMyTags.toArray(new Tag[allMyTags.size()]), i);
 		parcel.writeStringList(allMyInventoryNames);
+		parcel.writeString(filesDir);
 	}
 }

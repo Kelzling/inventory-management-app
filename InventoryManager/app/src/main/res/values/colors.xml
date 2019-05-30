@@ -8,4 +8,7 @@
     <color name="colour_white">#ffffff</color>
     <color name="colour_red">#ff0000</color>
     <color name="colour_purple_dark">#4b4d5c</color>
+    <color name="color_grey_light">#b3b5b4</color>
+    <color name="color_grey_dark">#1b1e1c</color>
+    <color name="color_grey_mid">#303633</color>
 </resources>

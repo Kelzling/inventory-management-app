@@ -18,12 +18,11 @@ import nz.ac.ara.kev38.inventorymanager.modelcode.*;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends SystemSaverActivity {
     public static final String EXTRA_SYSTEM = "nz.ac.ara.kev38.inventorymanager.extras.EXTRA_SYSTEM";
     public static final int NEW_INV_REQUEST = 1;
     private RecyclerView mInventoryNameView;
     private ArrayList<String> mInventoryNamesList = new ArrayList<>();
-    private SystemManager mTheSystem;
     private NameListAdapter mNameListAdapter;
 
     @Override
